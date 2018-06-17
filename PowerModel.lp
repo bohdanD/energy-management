@@ -1,21 +1,22 @@
 \* Power-Cost consumption problem *\
 Minimize
-Total_Cost_of_Energy: 100 time_0 + 104 time_1 + 360 time_10 + 345 time_11
- + 210 time_12 + 200 time_13 + 200 time_14 + 210 time_15 + 210 time_16
- + 210 time_17 + 220 time_18 + 220 time_19 + 104 time_2 + 345 time_20
- + 345 time_21 + 360 time_22 + 96 time_23 + 104 time_3 + 108 time_4
- + 104 time_5 + 104 time_6 + 250 time_7 + 375 time_8 + 375 time_9
+Total_Cost_of_Energy: 131.6 time_0 + 125.6 time_1 + 586.5 time_10
+ + 612 time_11 + 426 time_12 + 428 time_13 + 430 time_14 + 448 time_15
+ + 450 time_16 + 291 time_17 + 291 time_18 + 389 time_19 + 120 time_2
+ + 391.5 time_20 + 375 time_21 + 360 time_22 + 131.6 time_23 + 120.8 time_3
+ + 121.2 time_4 + 121.6 time_5 + 134.8 time_6 + 354 time_7 + 534 time_8
+ + 559.5 time_9
 Subject To
-Max_Power: 250 time_0 + 260 time_1 + 240 time_10 + 230 time_11 + 210 time_12
- + 200 time_13 + 200 time_14 + 210 time_15 + 210 time_16 + 210 time_17
- + 220 time_18 + 220 time_19 + 260 time_2 + 230 time_20 + 230 time_21
- + 240 time_22 + 240 time_23 + 260 time_3 + 270 time_4 + 260 time_5
- + 260 time_6 + 250 time_7 + 250 time_8 + 250 time_9 <= 3500
-Min_Power: 250 time_0 + 260 time_1 + 240 time_10 + 230 time_11 + 210 time_12
- + 200 time_13 + 200 time_14 + 210 time_15 + 210 time_16 + 210 time_17
- + 220 time_18 + 220 time_19 + 260 time_2 + 230 time_20 + 230 time_21
- + 240 time_22 + 240 time_23 + 260 time_3 + 270 time_4 + 260 time_5
- + 260 time_6 + 250 time_7 + 250 time_8 + 250 time_9 >= 3250
+Max_Power: 329 time_0 + 314 time_1 + 391 time_10 + 408 time_11 + 426 time_12
+ + 428 time_13 + 430 time_14 + 448 time_15 + 450 time_16 + 291 time_17
+ + 291 time_18 + 389 time_19 + 300 time_2 + 261 time_20 + 250 time_21
+ + 240 time_22 + 329 time_23 + 302 time_3 + 303 time_4 + 304 time_5
+ + 337 time_6 + 354 time_7 + 356 time_8 + 373 time_9 <= 5984
+Min_Power: 329 time_0 + 314 time_1 + 391 time_10 + 408 time_11 + 426 time_12
+ + 428 time_13 + 430 time_14 + 448 time_15 + 450 time_16 + 291 time_17
+ + 291 time_18 + 389 time_19 + 300 time_2 + 261 time_20 + 250 time_21
+ + 240 time_22 + 329 time_23 + 302 time_3 + 303 time_4 + 304 time_5
+ + 337 time_6 + 354 time_7 + 356 time_8 + 373 time_9 >= 5023
 Binaries
 time_0
 time_1
